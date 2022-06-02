@@ -4,13 +4,167 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
+    <style>
+        th,td,caption,table{
+            border: 1px solid black;
+        }
+        
+        </style>
 </head>
 <body>
-    <h1>Accueil</h1>
-        <div> 
-            <p>ipsum dolor sit amet, consectetur adipisicing elit. Numquam ducimus commodi totam suscipit at asperiores esse dolorem delectus labore magni sequi, nostrum accusantium ut itaque a adipisci voluptas voluptatibus, exercitationem distinctio necessitatibus vitae quaerat harum? Nam voluptate eos magnam sed dolor. Vero sed, pariatur temporibus corrupti maiores aut, nostrum dolorem iste aliquid laboriosam autem quod quis doloremque. Exercitationem vitae odit officiis laborum explicabo labore, rem nihil perspiciatis delectus totam saepe doloremque quibusdam id quia deleniti aliquid veniam? Reiciendis tempora aspernatur, commodi vero id autem facilis repellendus libero natus, dolorem in alias fugit deleniti ipsa facere! Corrupti non, vitae tenetur, nemo quis maxime accusantium ipsum, alias qui voluptatem tempora vero in minima sed veniam quia ipsa deleniti ullam? Deserunt, quisquam voluptate!</p>
-    <a href="page1.html">Page 1</a>
-    <a href="Suite/page2.html">Page 2</a>
-    
+    <h1 id="debut">Accueil</h1>
+        <a href="#fin"><strong>Fin</strong></a>
+        <a href="#milieu"><strong>Milieu</strong></a>
+        <div>
+            <h2>Sommaire</h2>
+            <ul>
+                <li>Résumé "L'ombre noire"</li><img src="img/CVT_LOmbre-Noire_9584.jpg" alt="Couverture du livre l'ombre noire">
+                    <ul><div>
+                        <iframe width="854" height="480" src="https://www.youtube.com/embed/GN_RtqIzycw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay" allowfullscreen></iframe></div>
+                        <li>L'OMBRE NOIRE est un thriller psychologique haletant, à la frontière de la fiction qui nous présente Rutherford Write, un auteur à succès se retrouvant face à ses propres ténèbres lorsque le syndrome de la page blanche le frappe. Sa femme et lui décident alors de partir dans un chalet perdu en forêt. Un havre de paix propice à son inspiration.
+
+                            Enfin, ça, c'est ce qu'il croyait !
+                        
+                        </li>
+                    </ul>
+                <li>Résumé "Rêves et cauchemars"</li><img src="img/CVT_Reves-et-Cauchemars_2446.jpg" alt="Couverture du livre rêves et cauchemars">
+                    <ul>
+                        <li>De jeunes gens en quêtes d'approbations, de reconnaissance et de gloire, disparaissent dans leur malheur ; Une femme dans l'ivresse de la quintessence d'un amour dérisoire, à jamais perdu ; Une créature tapis dans les bas-fonds d'un mal-être... Des rêves et des cauchemars. Des rêves et des cauchemars ce mêlant à la réalité. Certaines de ces nouvelles ont des crocs, tapis dans l'ombre, prêtes à vous arracher la jugulaire ; d'autres ont un cœur, vous tendant délicatement la main pour vous emmener dans la beauté de la vie qui tend à jongler entre : Désespoir, Horreur et Amour... Préparez-vous à entrer dans les profondeurs du mal et la noirceur de votre cœur ! Réussirez-vous à sortir des ténèbres qui vous entourent ?</li>
+                        </ul>
+                <li>Résumé "S"</li><img src="img/31WmpDorZiL._SX195_.jpg" alt="Couverture du livre S">
+                        <ul>
+                            <li>L’écriture est la clé qui ouvre les portes des enfers de chacun. Écrire revient à leur ouvrir l’accès à notre monde. [...] Arrêtez de faire vivre vos démons. Tuez-les ou oubliez-les ! Mais n’en faites pas des personnages invincibles. La peur est toujours surmontable. Je suis de ceux qui s’y sont brûlés jusqu’à en devenir fous ! Mes livres sont maudits ! Je vous aurai prévenu.</li>
+                        </ul>
+            </ul>
+            <!--formule: table>(tr>td*3)+(tr>td*3)-->
+            <table>
+                <tr>
+                    <td>Ligne 1 Colonne 1</td>
+                    <td>Ligne 1 Colonne 2</td>
+                    <td>Ligne 1 Colonne 3</td>
+                </tr>
+                <tr>
+                    <td>Ligne 2 Colonne 1</td>
+                    <td>Ligne 2 Colonne 2</td>
+                    <td>Ligne 2 Colonne 3</td>
+                </tr>
+            </table>
+            <table>
+                <caption>Prix du marché</caption>
+                <tr>
+                    <th>Fruits</th>
+                    <th>Poids</th>
+                    <th>Prix</th>
+                </tr>
+                <tr>
+                    <td>Kiwi</td>
+                    <td>3kg</td>
+                    <td>2€</td>
+                </tr>
+                <tr>
+                    <td>Banane</td>
+                    <td>2kg</td>
+                    <td>1€</td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th colspan="3">Prix du marché noir</th>
+                </tr>
+                <tr>
+                    <th>Fruits</th>
+                    <th>Poids</th>
+                    <th>Prix</th>
+                </tr>
+                <tr>
+                    <td>Kiwi</td>
+                    <td>3kg</td>
+                    <td>1.20€</td>
+                </tr>
+                <tr>
+                    <td>Banane</td>
+                    <td>2kg</td>
+                    <td>0.70€</td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td rowspan="2">Ligne 1, 2 et 3 colonne 1</td>
+                    <td>Ligne 1 Colonne 2</td>
+                    <td rowspan="3">Ligne 1,2,3 Colonne 3</td>
+                </tr>
+                <tr>
+                    <td>Ligne 2 Colonne 2</td>
+                </tr>
+                <tr>
+                    <td>Ligne 3 Colonne 1</td>
+                    <td>Ligne 3 Colone 2</td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td rowspan="2">Ligne 1, 2 et 3 colonne 1</td>
+                    <td>Ligne 1 Colonne 2</td>
+                    <td rowspan="2">Ligne 1,2 Colonne 3</td>
+                </tr>
+                <tr>
+                    <td>Ligne 2 Colonne 1</td>
+                </tr>
+                <tr>
+                    <td>Ligne 3 Colonne 1</td>
+                    <td colspan="2">Ligne 3 Colone 2,3</td>
+                </tr>
+            </table>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Ligne Colonne</td>
+                        <td>Ligne Colonne</td>
+                        <td>Ligne Colonne</td>
+                    </tr>
+                    <tr>
+                        <td>Ligne Colonne</td>
+                        <td colspan="2">Ligne Colonne</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- Label entrer de nom -->
+            <br>
+            <form>
+                <label for="nom">Votre nom</label>
+                <input placeholder="ex: Tartanpion" type="text" id=""nom" name="nom"/>
+                <label for="prenom">Votre prénom</label>
+                <input placeholder="ex: Gollum" type="text" id=""prenom" name="prenom"/> <br>
+
+                <fieldset style="width: 150px;">
+                    <legend>Quel type de musique aimez-vous ?</legend>
+                        <input type="checkbox" name="jazz" id="jazz">
+                        <label for="jazz">Le jazz</label><br>
+                        <input type="checkbox" name="techno" id="techno">
+                        <label for="techno"> La techno</label><br>
+                        <input type="checkbox" name="rock" id="rock">
+                        <label for="rock">Le rock</label><br>
+                    <br></fieldset>
+                    <fieldset style="width: 150px;">
+                        <legend>Votre sexe</legend>
+                        <input type="radio" name="sexe" value="femme" id="femme">
+                        <label for="femme">une femme</label><br>
+                        <input type="radio" name="sexe" value="homme" id="homme">
+                        <label for="femme">un homme</label><br>
+                        <input type="radio" name="sexe" value="gollum" id="gollum">
+                        <label for="femme">Gollum</label><br>
+                    </fieldset>
+
+                    <br>
+                        <label for="montext">Commentaire :</label>
+                        <textarea name="montext" id="montext" maxlength="400" cols="54" rows="15"></textarea>
+            </form>
+            <p> ipsum dolor sit amet, consectetur adipisicing elit. Numquam ducimus commodi totam suscipit at asperiores esse dolorem delectus labore magni sequi, nostrum accusantium ut itaque a adipisci voluptas voluptatibus, exercitationem distinctio necessitatibus vitae quaerat harum? Nam voluptate eos magnam sed dolor. Vero sed, pariatur temporibus corrupti maiores aut, nostrum dolorem iste aliquid laboriosam autem quod quis doloremque. Exercitationem vitae odit officiis laborum explicabo labore, rem nihil perspiciatis delectus totam saepe doloremque quibusdam id quia deleniti aliquid veniam? Reiciendis tempora aspernatur, commodi vero id autem facilis repellendus libero natus, dolorem in alias fugit deleniti ipsa facere! Corrupti non, vitae tenetur, nemo quis maxime accusantium ipsum, alias qui voluptatem tempora vero in minima sed veniam quia ipsa deleniti ullam? Deserunt, quisquam voluptate!</p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nihil atque esse repellat nam laboriosam odit qui iure explicabo iusto voluptatibus, dolores eos voluptates tempore eaque magnam ea nisi! Omnis quis laboriosam eaque hic quasi officiis pariatur vero dicta excepturi repellendus, a earum minus obcaecati dolor. Voluptatum et quos saepe sapiente, animi voluptates esse adipisci obcaecati doloremque? Asperiores et tenetur deleniti eos assumenda unde nobis quo culpa laborum consequuntur, temporibus magnam, quidem ducimus recusandae, deserunt libero dolores veniam itaque impedit voluptas dolor vel sunt. Impedit aspernatur, voluptate asperiores deserunt voluptas distinctio eaque nisi quis facilis aut ducimus est numquam natus quo ipsum quaerat ipsa vero dolorem hic excepturi! Aut debitis deserunt, illum hic tempore inventore ab pariatur adipisci explicabo assumenda molestiae quam. A dolore aut quos dolorem dignissimos excepturi ipsum quod numquam perferendis ab doloribus, ducimus veniam quasi eos modi non earum rem, expedita dolorum odio accusantium odit magni sequi architecto? Rerum a iure quo in possimus voluptas recusandae repellat repudiandae magni dolorum vel ex accusantium culpa nulla <span id="milieu"><a href="#debut"><strong>Debut</strong></a> similique</span> ratione quas, quisquam architecto facilis praesentium doloremque perferendis. Aut sint iure reiciendis numquam nisi quos laudantium natus omnis ratione earum blanditiis, non doloremque eos quas ducimus possimus illo neque quod beatae dignissimos! Qui rem impedit eum! Quod omnis nemo voluptatem tempore vero earum assumenda similique placeat sapiente necessitatibus possimus non sunt laborum eaque adipisci, ab error! Magni illum, sint hic natus voluptate eligendi voluptas nisi reprehenderit officia vero rerum, nostrum maxime fugiat ullam quas recusandae repudiandae odio rem ut perspiciatis obcaecati. Veniam facilis suscipit voluptatem cum. Eaque culpa dolorum provident voluptatem, vitae, exercitationem dolorem sint consequatur deserunt quidem officia repellat, voluptatibus ipsam similique laboriosam iusto qui fugit quisquam nulla totam nihil illum recusandae. Beatae neque, laborum assumenda consectetur qui eaque fuga soluta dolore rerum doloremque maiores excepturi animi fugit ipsum nihil vero unde earum nemo error obcaecati! Distinctio vel molestias quasi tempore repellendus! Non, atque eaque facilis provident asperiores eum assumenda tempora nisi sequi suscipit pariatur alias explicabo nulla quis eos est molestiae blanditiis? Minus vero cumque officia inventore dolores, perferendis molestias beatae dignissimos fugiat illum laboriosam vel fugit recusandae, eum deserunt quod quo adipisci, aliquid illo voluptates sint culpa cum quae. Voluptas laborum, laudantium ipsam reiciendis quidem animi quaerat esse possimus dolorum repudiandae sit architecto? Possimus illum voluptate, dicta eius vero quia repellendus sunt omnis aperiam quae iusto magni. Eos inventore necessitatibus fugit eaque, magni corrupti excepturi maxime nam sint perspiciatis quis sed accusamus recusandae quos velit iusto minima fuga similique laboriosam soluta hic aut accusantium quasi molestiae. Vel natus magni ipsa. Doloremque assumenda ab, doloribus nam voluptates laboriosam voluptatibus nemo iste eos ducimus perferendis soluta beatae pariatur enim consectetur accusamus. Tempore fuga corrupti dolorem odio provident impedit fugit temporibus consectetur dolorum deleniti delectus debitis pariatur voluptatibus expedita qui ipsam eius, quibusdam cupiditate rerum at! Fugit officia quaerat mollitia sit, dignissimos porro quod aperiam, eum deleniti reiciendis adipisci corporis sapiente aliquam quam nemo ipsum veritatis asperiores tempore odit numquam quibusdam impedit ab veniam laborum. Doloribus aspernatur obcaecati enim beatae magni!</p>
+    <a href="page1.html"><strong>Page 1</strong></a>
+    <a href="Suite/page2.html"><strong>Page 2</strong></a>
+    <div id="fin">
+    <a href="#debut"><strong>Debut</strong></a>
+    </div>
 </body>
 </html>
