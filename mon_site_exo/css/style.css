@@ -1,0 +1,41 @@
+a{
+     text-decoration:none;
+     }
+        
+        a:hover{
+        text-decoration:none;
+
+        border: 2px black;
+    }
+.border{
+    
+        border: 1px solid black;
+    }
+    
+    
+.box {
+        margin: 90px;
+        padding: 70px;
+        border: 2px solid black;
+      }
+
+form{
+    background-color: whitesmoke;
+}
+h1,h2,h4,a{
+    color: #191970;
+}
+ul{
+    color: darkred;
+}
+li{
+    color: black;
+}
+html{
+    background-image: url(/img/Valheim-Background.jpg);
+    width: auto;
+    height: 900px;
+}
+body{
+    background-color: whitesmoke;
+}
