@@ -1,49 +1,120 @@
-a{
-     text-decoration:none;
-     }
-        
-        a:hover{
-        text-decoration:none;
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Roboto&display=swap');
 
-        border: 2px black;
-    }
-conteneur {
+body{
+    background: url(/img/Valheim-Background.jpg)no-repeat fixed center/cover ;
+    
+}
+
+.logoheader{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+nav{
+    font-family: 'Roboto', sans-serif;
     display: flex;
+    width: 93%;
+    margin: 8px auto;
+    padding: 0;
     justify-content: center;
-  }
-  
-  img {
-    width: 40%;
-  }
-.border{
+
+}
+nav li{
+    display: inline-block;
+}
+nav a {
+    display: block;
+    min-width: 300px;
+
+    margin: 0.5rem;
+    padding: 0.4rem 0;
+
+    background: rgba(245, 245, 245, 0.63);
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: all 0.3s;
+
+    font-weight: 700; 
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.397) 
+
     
-        border: 1px solid black;
-    }
+}
+nav a:hover{
+    background: rgba(255, 255, 255, 0.800)
+
+}
+
+
+header{
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+    padding: 15px;
+    justify-content: center;
+
+    background: rgba(245, 245, 245, 0.800);
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.397) ;   
+ 
+}
+
+
+h1{
+    font-family: 'Amiri', serif;
+    margin: 0.5rem 3rem;
+    padding: 0.1rem;
+    text-transform: uppercase;
+    color: rgb(24, 24, 24);
+    text-shadow:0px 1px 5px #ffffff
     
-    
-.box {
-        margin: 90px;
-        padding: 70px;
-        border: 2px solid black;
-      }
+}
+
+
+
+
+main{
+    font-family: 'Roboto', sans-serif;
+    background: whitesmoke;
+    width: 90%;
+    min-height: 500px;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.397)
+
+
+}
+
+div iframe{
+    display: block;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.233);
+}
+
 
 form{
-    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    background: whitesmoke;
+    width: 90%;
+    min-height: 500px;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.397)
 }
-h1,h2,h4,a{
-    color: #191970;
+
+fieldset{
+    border-radius: 10px;
 }
-ul{
-    color: darkred;
-}
-li{
-    color: black;
-}
-html{
-    background-image: url(/img/Valheim-Background.jpg);
-    width: auto;
-    height: 900px;
-}
-body{
-    background-color: whitesmoke;
+
+textarea{
+    border-radius: 10px;
 }

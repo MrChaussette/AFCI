@@ -7,60 +7,65 @@
     <link rel="icon" href="/img/icone_valheim.png">
     <title>Valheim</title>
 </head>
-<body class="box">
-    <conteneur>
-        <img src="img/Valheim_logo.png" alt="logo titre du jeu">
-      </conteneur>
-    <div>
-        <br>
-        <h1>Contact</h1>
-        <a class="border" href="/index.html"> Index </a>
-        <a class="border" href="/a_propos.html"> A propos </a>
-    </div>
-    <p>
-        Pour nous contacter passez par ce formulaire :
-    </p>
-    <form>
-        <fieldset>
-            <label for="nom">Votre nom :</label>
-            <label for="prenom"></label>
-            <input placeholder="ex: nom" type="text" name="nom">
-            <input placeholder="ex: prenom" type="text" name="prenom">
+
+<body>
+    <img class="logoheader" src="/img/Valheim_logo.png" href="/img/Valheim_logo.png" height="200" alt="titre valheim" >
+    <nav>
+        <ul>
+          <li><a href="/index.html">Accueil</a></li>
+          <li><a href="/a_propos.html">A propos</a></li>
+          <li><a href="https://store.steampowered.com/app/892970/Valheim/" target="_blank" >Boutique steam</a></li>
+
+        </ul>
+      </nav>
+    <header>
+         <h1>Contact</h1>
+      </header>
+    
+        <form>
+            <p>
+                Pour nous contacter passez par ce formulaire :
+            </p>
+                <label for="nom">Votre nom :</label>
+                <label for="prenom"></label>
+                <input placeholder="ex: nom" type="text" name="nom">
+                <input placeholder="ex: prenom" type="text" name="prenom">
+                <div>
+                    <br>
+                </div>
+                <label for="pseudo">Votre pseudo :</label>
+                <input placeholder="ex: pseudo" type="text" name="pseudo">
+                <div>
+                    <br>
+                </div>
+            <fieldset>
+                <legend>Quels armes utilisez-vous ?</legend>
+                    <input type="checkbox" name="epee" id="epee">
+                    <label for="epee">Une épée</label>
+                    <br>
+                    <input type="checkbox" name="arc" id="arc">
+                    <label for="epee">Un arc</label>
+                    <br>
+                    <input type="checkbox" name="lance" id="lance">
+                    <label for="epee">Une lance</label>
+                    <br>
+                    <input type="checkbox" name="hache" id="hache">
+                    <label for="epee">Une hache</label>
+                    <br>
+                    <input type="checkbox" name="poing" id="poing">
+                    <label for="epee">Vos poings</label>
+                </fieldset>
+                <div>
+                    <br>
+                </div>
+            <label for="montext">Commentaire :</label>
+            <br>
+            <textarea name="montext" id="montext" cols="40" rows="10"></textarea>
             <div>
                 <br>
             </div>
-            <label for="pseudo">Votre pseudo :</label>
-            <input placeholder="ex: pseudo" type="text" name="pseudo">
-            <div>
-                <br>
-            </div>
-        <fieldset style="width: 385px;" >
-        <legend>Quels armes utilisez-vous ?</legend>
-            <input type="checkbox" name="epee" id="epee">
-            <label for="epee">Une épée</label>
-            <br>
-            <input type="checkbox" name="arc" id="arc">
-            <label for="epee">Un arc</label>
-            <br>
-            <input type="checkbox" name="lance" id="lance">
-            <label for="epee">Une lance</label>
-            <br>
-            <input type="checkbox" name="hache" id="hache">
-            <label for="epee">Une hache</label>
-            <br>
-            <input type="checkbox" name="poing" id="poing">
-            <label for="epee">Vos poings</label>
-            </fieldset>
-            <div>
-                <br>
-            </div>
-        <label for="montext">Commentaire :</label>
-        <textarea name="montext" id="montext" cols="40" rows="10"></textarea>
-        <div>
-            <br>
-        </div>
-        <input type="submit" value="Envoyer">
-    </fieldset>
-    </form>
+            <input type="submit" value="Envoyer">
+        </fieldset>
+        </form>
 </body>
 </html>
